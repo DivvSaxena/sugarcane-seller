@@ -1,0 +1,204 @@
+/* IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Gorditas:wght@400;700&family=Grandstander:ital,wght@0,100..900;1,100..900&family=Irish+Grover&family=Macondo&family=McLaren&family=Poor+Story&family=Recursive:wght@300..1000&family=Ribeye+Marrow&family=Single+Day&display=swap');
+
+body{
+    margin: 0;
+    user-select: none;
+}
+
+.container{
+    max-width: 390px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    line-height: 1.2;
+}
+
+/* HEADER STYLING */
+.header{
+    font-family: "Ribeye Marrow", serif;
+    font-size: 2.5rem;
+    position: relative;
+}
+
+.header > h1{
+    margin: 0.2em;
+    font-weight: 400;
+}
+
+.juice-can{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: -45px;
+    height: 100px;
+}
+
+.sugarcane{
+    position: absolute;
+    z-index: -1;
+    top: -5px;
+    right: -45px;
+    width: 28%;
+}
+
+.header-list{
+    font-family: "Macondo", cursive;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+.header-list > li{
+    list-style: none;
+}
+
+li > a{
+    text-decoration: none;
+    color: black;
+}
+
+/* SECTION ONE STYLING */
+
+.section-one{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Single Day", cursive;
+    font-size: 2.5rem;
+    position: relative;
+    text-align: center;
+}
+
+.section-one > h1{
+    font-weight: 400;
+}
+
+.gif-one{
+    height: 265px;
+    width: 241px;
+    background: url('./assets/gifs/one.gif');
+    margin-top: 1.25em;
+    border-radius: 14px;
+}
+
+.gif-two{
+    background: url('./assets/gifs/two.gif');
+    background-size: cover;
+    background-position: center;
+    height: 190px;
+    width: 100px;
+    position: absolute;
+    bottom: 30px;
+    border-radius: 12px;
+    z-index: -1;
+    left: 0;
+}
+
+/* SECTION TWO STYLING */
+
+.section-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.section-two > h1{
+    font-family: "McLaren", sans-serif;
+    font-size: 2.6rem;
+    margin: 0.4em;
+    font-weight: 400;
+    width: 80%;
+    text-align: center;
+}
+
+.section-two > p{
+    font-family: "Poor Story", system-ui;
+    width: 90%;
+    font-size: 2rem;
+}
+
+.owner-pic{
+    height: 280px;
+    width: 280px;
+    background-color: aqua;
+    border-radius: 50%;
+}
+
+/* SECTION THREE STYLING */
+
+.section-three{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-three > h1{
+    font-family: "Gorditas", serif;
+    font-size: 2.9rem;
+    margin: 0.4em;
+    width: 80%;
+    font-weight: 400;
+    text-align: center;
+}
+
+.owner-video{
+    height: 254px;
+    width: 293px;
+    background-color: aqua;
+}
+
+.section-three > h2{
+    font-family: "Recursive", sans-serif;
+    font-weight: 400;
+    font-size: 1.975rem;
+}
+
+.gif-three{
+    background: url('./assets/gifs/three.gif');
+    background-size: cover;
+    height: 297px;
+    width: 292px;
+    border-radius: 39px;
+}
+
+/* SECTION FOUR STYLING */
+.section-four{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-four > h1{
+    font-family: "Gorditas", serif;
+    font-size: 2.8rem;
+    margin: 0.5em;
+}
+
+.section-four > p{
+    font-family: "Grandstander", cursive;
+    font-size: 1.625rem;
+    width: 80%;
+    text-align: start;
+}   
+
+/* FOOTER STYLING */
+
+.footer{
+    background-color: #75A1AF;
+    width: 100%;
+    font-family: "Irish Grover", system-ui;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.footer > p{
+    width: 40%;
+    margin: 1em auto;
+}
